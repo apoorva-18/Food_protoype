@@ -1,22 +1,17 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
-import { fileURLToPath } from 'url'
-import { dirname, resolve } from 'path'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+export default defineConfig(({ mode }) => {
+  // Load env file based on `mode` (e.g. .env, .env.development)
+  const env = loadEnv(mode, process.cwd())
 
-export default defineConfig({
-  plugins: [react()],
-  base: import.meta.env.VITE_BASE_PATH || "/Food_protoype",
-  css: {
-    modules: {
-      localsConvention: 'camelCase',
-    },
-  },
-  resolve: {
-    alias: {
-      '@fortawesome/react-fontawesome': resolve(__dirname, 'node_modules/@fortawesome/react-fontawesome'),
-    },
-  },
+  return {
+    plugins: [react()],
+    base: env.VITE_BASE_PATH || "/Food_protoype",
+    css: {
+      modules: {
+        localsConvention: 'camelCase',
+      },
+    }
+  }
 })

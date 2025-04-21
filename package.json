@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "'": "file:awesome.me/kit-KIT_CODE@latest'",
     "@fontsource/outfit": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

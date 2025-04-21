@@ -1,0 +1,62 @@
+.cta-banner {
+    background: linear-gradient(to right, #ff7043, #d32f2f);
+    padding: 60px 80px;
+    text-align: center;
+    color: white;
+    animation: fadeIn 1s ease;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  .cta-banner h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  
+  .cta-banner p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    padding: 10px 24px;
+    background-color: white;
+    color: #d32f2f;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Add at end of CtaBanner.css */
+@media (max-width: 600px) {
+  .cta-banner {
+    padding: 40px 20px;
+  }
+  .cta-banner h2 {
+    font-size: 1.5rem;
+  }
+  .cta-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+  

@@ -1,0 +1,76 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #fff8e1;
+    animation: fadeIn 1.2s ease-in;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+  
+  .hero-text span {
+    font-size: 2.5rem;
+  }
+  
+  .hero-text p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+  }
+  
+  .order-btn {
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: #e53935;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .order-btn:hover {
+    background-color: #c62828;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    transform: rotate(5deg);
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .hero-image img:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Add at end of Hero.css */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .hero-image img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+}
+
+  

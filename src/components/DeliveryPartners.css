@@ -1,0 +1,91 @@
+.delivery-partners {
+  background-color: #fdf2dc;
+  padding: 80px 70px;
+  text-align: left;
+}
+
+.delivery-partners h3 {
+  display: left;
+  align-items: flex-start;
+  justify-content: left;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.delivery-partners p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+/* Logo grid layout */
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.logo-container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo-container:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .logo-container {
+    width: 350px;
+  }
+  .logo-container img{
+    max-height: 200px;
+    width: 100%;
+  }
+
+  .delivery-partners h3 {
+    font-size: 1.6rem;
+  }
+
+  .delivery-partners p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-logos {
+    gap: 50px;
+  }
+
+  .logo-container {
+    width: 100px;
+  }
+  .logo-container img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .delivery-partners h3 {
+    font-size: 1.4rem;
+  }
+
+  .delivery-partners p {
+    font-size: 0.9rem;
+  }
+}

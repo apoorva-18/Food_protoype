@@ -4,19 +4,19 @@ import './Categories.css';
 const categories = [
   {
     title: 'WRAPS AND BURGERS',
-    image: '/images/wraps.jpeg',
+    image: '/Food-proto/images/wraps.jpeg',
   },
   {
     title: 'SALADS',
-    image: '/images/salads.jpeg',
+    image: '/Food-proto/images/salads.jpeg',
   },
   {
     title: 'COMBO MEALS',
-    image: '/images/combo.jpeg',
+    image: '/Food-proto/images/combo.jpeg',
   },
   {
     title: 'DRINKS',
-    image: '/images/drinks.jpeg',
+    image: '/Food-proto/images/drinks.jpeg',
   },
 ];
 

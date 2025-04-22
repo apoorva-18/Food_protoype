@@ -3,7 +3,7 @@ import './Categories.css';
 import wraps from '../images/wraps.jpeg';
 import salads from '../images/salads.jpeg';
 import combo from '../images/combo.jpeg';
-import drinks from '../images/drinks.jpeg'; 
+import drinks from '../images/drinks.jpeg';
 const categories = [
   {
     title: 'WRAPS AND BURGERS',

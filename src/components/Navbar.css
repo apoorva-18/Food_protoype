@@ -64,8 +64,8 @@
     .nav-links {
       position: absolute;
       top: 60px;
-      right: 0;
-      background-color: #fff8e1;
+      right: -25px;
+      background-color:transparent;
       flex-direction: column;
       width: 150px;
       padding: 15px;

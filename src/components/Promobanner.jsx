@@ -1,7 +1,7 @@
 // src/components/PromoBanner.jsx
 import React from 'react';
 import './PromoBanner.css';
-import wraps from '../images/wrpas.jpeg';
+import wraps from '../images/wraps.jpeg';
 import burgers from '../images/burgers.jpg';
 
 const PromoBanner = () => {

@@ -1,12 +1,14 @@
 // src/components/PromoBanner.jsx
 import React from 'react';
 import './PromoBanner.css';
+import wraps from '../images/wrpas.jpeg';
+import burgers from '../images/burgers.jpg';
 
 const PromoBanner = () => {
   return (
     <section className="promo-banner">
       <div className="promo left">
-        <img src="/images/wraps.jpeg" alt="Promo Left" />
+        <img src={wraps} alt="Promo Left" />
         <div className="promo-text">
           <h3>GET 40% OFF</h3>
           <p>
@@ -17,7 +19,7 @@ const PromoBanner = () => {
       </div>
 
       <div className="promo right">
-        <img src="/images/burgers.jpg" alt="Promo Right" />
+        <img src={burgers} alt="Promo Right" />
         <div className="promo-text">
           <h3>GET 40% OFF</h3>
           <p>

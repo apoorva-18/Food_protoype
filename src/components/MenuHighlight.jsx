@@ -1,23 +1,27 @@
 // src/components/MenuHighlight.jsx
 import React from 'react';
 import './MenuHighlight.css';
+import chicken from '../images/chicken.jpg';
+import kebab from '../images/kebab.jpeg';
+import burgers from '../images/burgers.jpg';
+
 
 const items = [
   {
     title: 'GRILLED CHICKEN',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit..',
-    image: '/images/chicken.jpg',
+    image: chicken,
     tag: 'BESTSELLER',
   },
   {
     title: 'KEBABS',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: '/images/kebab.jpeg',
+    image: kebab,
   },
   {
     title: 'GRILLED BURGER',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: '/images/burgers.jpg',
+    image: burgers,
   },
 ];
 

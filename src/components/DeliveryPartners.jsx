@@ -1,11 +1,14 @@
 // src/components/DeliveryPartners.jsx
 import React from 'react';
 import './DeliveryPartners.css';
+import Zomato from '../images/Zomato.jpeg';
+import Swiggy from '../images/Swiggy.png';
+import uberEats from '../images/uber-eats.jpeg';
 
 const partners = [
-  { name: 'Zomato', logo: '/images/Zomato.jpeg' },
-  { name: 'Swiggy', logo: '/images/Swiggy.png' },
-  { name: 'Uber Eats', logo: '/images/uber-eats.jpeg' },
+  { name: 'Zomato', logo: Zomato },
+  { name: 'Swiggy', logo: Swiggy },
+  { name: 'Uber Eats', logo: uberEats },
 ];
 
 const DeliveryPartners = () => {

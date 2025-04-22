@@ -2,37 +2,42 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import i1 from '../images/i1.jpeg';
+import i2 from '../images/i2.jpeg';
+import i3 from '../images/i3.jpeg';
+import i4 from '../images/i4.jpeg';
+import i5 from '../images/i5.jpeg';
 
 import './Testimonials.css';
 
 const testimonials = [
   {
     name: 'XYZ',
-    image: '/images/i1.jpeg',
+    image: i1,
     rating: 5,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: 'XYZ',
-    image: '/images/i4.jpeg',
+    image: i4,
     rating: 5,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: 'XYZ',
-    image: '/images/i2.jpeg',
+    image: i2,
     rating: 4.5,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: 'XYZ',
-    image: '/images/i3.jpeg',
+    image: i3,
     rating: 5,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: 'XYZ',
-    image: '/images/i5.jpeg',
+    image: i5,
     rating: 4,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },

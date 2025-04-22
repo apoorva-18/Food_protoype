@@ -2,27 +2,72 @@
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(to right, #ffeb3b 50%, #4caf50 50%);
-    padding: 100px 100px;
+    padding: 100px 80px;
   }
   
   .promo {
     width: 50%;
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 0px;
     animation: slideUp 0.9s ease-in-out;
   }
   
   .promo.left img {
-    width: 120px;
+    width: 50%;
+    object-fit: cover;
   }
-  
+  .promo.left h3 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  .promo.left p{
+    margin-bottom: 40px;
+    padding: 10px 10px 30px 0px;
+  }
+  .promo.left .order-btn1{
+    background-color: #e53935;
+    font-size: 1.2rem;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    box-shadow: 2px 4px 5px 3px #000;
+    border-radius: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .promo.right {
+    padding: 20px 30px;
+  }
   .promo.right img {
-    width: 120px;
-    height: 120px;
+    width: 50%;
   }
-  
+  .promo.right h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 40px;
+
+  }
+  .promo.right p{
+    color: #fff;
+    margin-bottom: 40px;
+
+    padding: 10px 10px 30px 0px;
+
+  }
+  .promo.right .order-btn2{
+    background-color: #fff8e1;
+    font-size: 1.2rem;
+    padding: 10px 30px 10px 30px;
+    color: #000;
+    box-shadow: 2px 4px 5px 3px #000;
+    border-radius: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
   .promo-text h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
@@ -36,8 +81,8 @@
   .order-btn {
     padding: 8px 18px;
     background-color: #e53935;
-    color: white;
-    border: none;
+    color: #e53935;
+    border: black;
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
@@ -61,7 +106,8 @@
   
   @media screen and (max-width: 768px) {
     .promo-banner {
-      flex-direction: column;
+      flex-direction: row;
+      text-align: center;
     }
     .promo {
       width: 100%;
@@ -70,7 +116,7 @@
   /* Add at end of PromoBanner.css */
 @media (max-width: 768px) {
   .promo-banner {
-    flex-direction: column;
+    flex-direction: row;
     padding: 40px 20px;
   }
   .promo {
@@ -78,6 +124,6 @@
     text-align: center;
   }
   .promo img {
-    display: none; /* optional: hide images on small screens */
+     /* optional: hide images on small screens */
   }
 }

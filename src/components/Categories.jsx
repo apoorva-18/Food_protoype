@@ -41,7 +41,7 @@ const Categories = () => {
         <div className="more-card">
           <h3>CHECK OUT MORE</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, a sed do eiusmod tempor incid ut labore.</p>
-          <button className="order-btn">ORDER NOW</button>
+          <button className="order-btn1">ORDER NOW</button>
         </div>
       </div>
       </div>

@@ -1,22 +1,25 @@
 import React from 'react';
 import './Categories.css';
-
+import wraps from '../images/wraps.jpeg';
+import salads from '../images/salads.jpeg';
+import combo from '../images/combo.jpeg';
+import drinks from '../images/drinks.jpeg'; 
 const categories = [
   {
     title: 'WRAPS AND BURGERS',
-    image: '/Food-proto/images/wraps.jpeg',
+    image: wraps,
   },
   {
     title: 'SALADS',
-    image: '/Food-proto/images/salads.jpeg',
+    image: salads,
   },
   {
     title: 'COMBO MEALS',
-    image: '/Food-proto/images/combo.jpeg',
+    image: combo,
   },
   {
     title: 'DRINKS',
-    image: '/Food-proto/images/drinks.jpeg',
+    image: drinks,
   },
 ];
 

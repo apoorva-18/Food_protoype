@@ -16,13 +16,11 @@
   
   .promo.left img {
     width: 120px;
-    border-radius: 50%;
   }
   
   .promo.right img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
   }
   
   .promo-text h3 {
